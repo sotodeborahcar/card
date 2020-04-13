@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* con esto receteo las variables previas
+    box-sizing: es para calcular que el box este dentro del padre */
+}
+.blanco{
+    color: #e7e7e7;
+}
+.gris{
+    color: #9b9b9b;
+}
+.rojo{
+    color: #fe4141;
+}
+.card{
+    background-color: #1e1b26;
+    width: 450px;
+    /* para una caja 450px esta bien */
+    min-height: 250px;
+    /* alto minimo */
+    font-family: Roboto, sans-serif;
+    border-radius: 15px;
+    box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
+}
+.card-title, .card-summary{
+    font-family: Montserrat; 
+}
+.card-title{
+    font-size: 48px;
+    font-weight: 200px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.card-subtitle{
+    font-size: 16px;
+    margin-left: 20px;
+}
+.card-summary{
+    margin: 15px 0 15px 20px;
+}
+.card-text{
+    padding: 15px 20px 15px 20px;
+    text-align: justify;
+}
+.card-actores{
+    padding: 15px 20px 15px 20px;
+    font-style: italic;
+}
+.card-button{
+    display: inline-block;
+    /* acomoda el boton dentro del box */
+    border: 1px solid #fe4141;
+    border-radius: 10px;
+    margin: 15px 20px;
+    padding: 5px;
+    /* padding me deja los bordes libres del cuadro */
+    text-align: left;
+    font-size: 20px;
+    /* para texto en mayuscula "text-transform: uppercase" */
+}
+.card-icon{
+    width: 16px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+    /* que la card ocupe el 100% , es decir que acomode la imagen dentro del padre*/
+}

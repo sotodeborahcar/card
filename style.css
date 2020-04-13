@@ -23,7 +23,7 @@
     /* alto minimo */
     font-family: Roboto, sans-serif;
     border-radius: 15px;
-    box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 7px 3px rgba(0,0,0,0.75);
 }
 .card-title, .card-summary{
     font-family: Montserrat; 

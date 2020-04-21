@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +16,7 @@
     color: #9b9b9b;
 }
 .rojo{
-    color: #fe4141;
+    color: #fe4140;
 }
 .card{
     background-color: #1e1b26;
@@ -24,15 +27,17 @@
     font-family: Roboto, sans-serif;
     border-radius: 15px;
     box-shadow: 2px 3px 7px 3px rgba(0,0,0,0.75);
+    /* box-shadow: es un estilo de sombras la busco en el buscador asi agrego el estilo ylo pego; */
 }
 .card-title, .card-summary{
     font-family: Montserrat; 
 }
 .card-title{
     font-size: 48px;
-    font-weight: 200px;
     margin-top: 15px;
+    /* margen del texto de arriba */
     margin-left: 20px;
+    /* margen del texto del lado izquierdo */
 }
 .card-subtitle{
     font-size: 16px;
